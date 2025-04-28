@@ -1,0 +1,107 @@
+{
+    "python.testing.pytestArgs": [
+        "c++"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true,
+    "cmake.configureOnOpen": false,
+    "files.associations": {
+        "iostream": "cpp",
+        "ostream": "cpp",
+        "array": "cpp",
+        "atomic": "cpp",
+        "*.tcc": "cpp",
+        "cctype": "cpp",
+        "clocale": "cpp",
+        "cmath": "cpp",
+        "cstdarg": "cpp",
+        "cstddef": "cpp",
+        "cstdint": "cpp",
+        "cstdio": "cpp",
+        "cstdlib": "cpp",
+        "cwchar": "cpp",
+        "cwctype": "cpp",
+        "deque": "cpp",
+        "unordered_map": "cpp",
+        "vector": "cpp",
+        "exception": "cpp",
+        "algorithm": "cpp",
+        "functional": "cpp",
+        "iterator": "cpp",
+        "memory": "cpp",
+        "memory_resource": "cpp",
+        "numeric": "cpp",
+        "random": "cpp",
+        "string": "cpp",
+        "system_error": "cpp",
+        "tuple": "cpp",
+        "type_traits": "cpp",
+        "utility": "cpp",
+        "fstream": "cpp",
+        "initializer_list": "cpp",
+        "iosfwd": "cpp",
+        "istream": "cpp",
+        "limits": "cpp",
+        "new": "cpp",
+        "sstream": "cpp",
+        "stdexcept": "cpp",
+        "streambuf": "cpp",
+        "typeinfo": "cpp",
+        "stdio.h": "c"
+    },
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "default",
+                "enableSsl": "Disabled"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "Firstconnection",
+            "database": "myshop",
+            "username": "Vivek3009",
+            "password": ""
+        },
+        {
+            "mysqlOptions": {
+                "authProtocol": "default",
+                "enableSsl": "Disabled"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "abc",
+            "database": "abc",
+            "username": "abc"
+        }
+    ],
+    "C_Cpp.errorSquiggles": "disabled",
+    "r.lsp.promptToInstall": false,
+    "cSpell.words": [
+        "arijit",
+        "boxplots",
+        "Celcius",
+        "coading",
+        "cowsay",
+        "dtypes",
+        "Faharenheit",
+        "helloworld",
+        "housh",
+        "lastdigit",
+        "manish",
+        "paritydigit",
+        "raion",
+        "raju",
+        "regplot",
+        "seema",
+        "swaping",
+        "vivek",
+        "ylim"
+    ],
+    "cSpell.enableFiletypes": [
+        "prolog"
+    ]
+}
