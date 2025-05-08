@@ -1,0 +1,9 @@
+likes(ram,mango,one).
+likes(bill,candy).
+girl(seema).
+red(rose).
+owns(john,goal).
+friends(raju,manish).
+singer(arijit).
+odd(5,number).
+friend(was).

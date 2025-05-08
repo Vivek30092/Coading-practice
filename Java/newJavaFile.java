@@ -1,0 +1,76 @@
+import java.awt.*;
+import java.awt.event.*;
+import javax.swing.JFrame;
+import javax.swing.JButton;
+import FrameDemo.java;
+
+
+class GameDemo {
+
+    static int x = 250, y = 1, x1, y1;
+    static Can c1 = null;
+
+    public static void main(String[] args) {
+        JFrame jf = new JFrame("Game");
+        jf.setLayout(new BorderLayout());
+        jf.setSize(500, 500);
+        Panel pn = new Panel();
+        jf.add(pn, "South");
+        JButton jb = new JButton(" << ");
+        JButton jb1 = new JButton(" >> ");
+        pn.add(jb);
+        pn.add(jb1);
+        jf.setVisible(true);
+
+    }
+
+    class xyz implements ActionListener {
+
+        public void actionPerformed(ActionEvent ae) {
+            JButton bt = (JButton) ae.getSource();
+            String s1 = bt.getText();
+            if (s1.equals(" << ")) {
+                x += 5;
+            }else{
+                x += 5;
+            }
+            c1.repaint();
+        }
+    }
+
+    static class Can extends Canvas implements Runnable {
+
+        int r1 = 0, g1 = 0, b1 = 0;
+
+        Can() {
+            Thread t1 = new Thread(this);
+            t1.start();
+        }
+
+        public void paint(Graphics g) {
+            Color col = new Color(r1, g1, b1);
+            g.setColor(col);
+            g.fillRect(x, y, 20, 20);
+
+        }
+
+        public void run() {
+            while (true) {
+                if (y < 400) {
+                    y = y + 2;
+                    try {
+                        Thread.sleep(80);
+                        repaint();
+                    } catch (Exception tt) {
+                    }
+                } else {
+                    x = (int) (Math.random() * 400);
+                    y = 1;
+                    r1 = (int) (Math.random() * 255);
+                    g1 = (int) (Math.random() * 255);
+                    b1 = (int) (Math.random() * 255);
+                }
+            }
+        }
+    }
+}

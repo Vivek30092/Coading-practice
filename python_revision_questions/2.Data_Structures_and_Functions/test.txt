@@ -1,0 +1,2 @@
+this is just a text file to learn file handling concept in python.
+hello
