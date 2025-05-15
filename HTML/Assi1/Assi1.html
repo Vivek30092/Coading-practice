@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Image Preview on Click</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+      background-color: #f0f0f0;
+    }
+
+    .preview {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #222;
+    }
+
+    .preview img {
+      max-width: 60%;
+      max-height: 60%;
+      border: 5px solid white;
+      border-radius: 10px;
+    }
+
+    .gallery {
+      display: flex;
+      justify-content: center;
+      padding: 10px;
+      background-color: #444;
+      overflow-x: auto;
+    }
+
+    .gallery img {
+      height: 100px;
+      margin: 0 10px;
+      cursor: pointer;
+      border: 3px solid transparent;
+      transition: transform 0.2s, border 0.2s;
+      border-radius: 5px;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.1);
+      border: 3px solid #fff;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Preview Area -->
+  <div class="preview">
+    <img id="mainImage" src="GOT1.jpg" alt="Preview">
+  </div>
+
+  <!-- Gallery Thumbnails -->
+  <div class="gallery">
+    <img src="./GOT1.jpg" onclick="showImage(this)">
+    <img src="./GOT2.jpg" onclick="showImage(this)">
+    <img src="./GOT3.jpg" onclick="showImage(this)">
+    <img src="./GOT4.jpg" onclick="showImage(this)">
+  </div>
+
+  <!-- JavaScript -->
+  <script>
+    function showImage(imgElement) {
+      const mainImage = document.getElementById("mainImage");
+      mainImage.src = imgElement.src;
+    }
+  </script>
+
+</body>
+</html>
