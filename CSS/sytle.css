@@ -1,0 +1,43 @@
+h3{
+    color: rgb(255, 102, 0);
+}
+
+
+body{
+    background-color: black;
+}
+
+
+p{
+    color:#ffff00;
+}
+
+
+button{
+    color:darkcyan;
+    background-color: chartreuse;
+}
+
+#headingOne{
+    color:rgb(121, 80, 255);
+}
+
+#headingTwo{
+    color:gray;
+}
+
+
+/* using universal selector we can set same color of everything written on page
+*{
+    color: blue;
+}  */
+
+*{
+    font:bold;
+}
+
+
+/* using class selector */
+.myClass{
+    color:crimson;
+}
