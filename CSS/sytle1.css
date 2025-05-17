@@ -1,6 +1,53 @@
 p{
-    text-align: center
-}
-h1{
     text-align: center;
+}
+#heading{
+    text-decoration: none;
+    text-align: center;
+}
+#one{
+    font-family:Arial, Helvetica, sans-serif;
+}
+#two{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color:rgb(146, 200, 202);
+}
+a{
+    text-decoration: none;
+}
+#idOne{
+    font-weight: normal;
+    color: red;
+}
+#idTwo{
+    font-weight: bold;
+    color: brown;
+}
+#idThree{
+    font-weight: bolder;
+    color: blueviolet;
+}
+#idFour{
+    font-weight: lighter;
+    color: chocolate;
+}
+
+#first{
+    text-align: left;
+    font-size: 50px;
+}
+#second{
+    text-align: left;
+    font-size: 10px;
+}
+#third{
+    text-align: left;
+    font-size: 25px;
+}
+#line_height{
+    line-height: 40px;
+    text-transform: capitalize;
 }
