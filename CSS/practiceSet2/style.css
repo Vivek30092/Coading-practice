@@ -1,7 +1,9 @@
 *{
     font-family: 'Times New Roman', Times, serif;
 }
-
+body{
+    background-color: hotpink;
+}
 #heading_main{
     text-align: center;
     text-transform: capitalize;

@@ -31,14 +31,14 @@ public class firstServlet extends HttpServlet {
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		String name = request.getParameter("cnm");
+		String cname = request.getParameter("cname");
 		String cadd = request.getParameter("cadd");
 		String email = request.getParameter("email");
 		String mob = request.getParameter("mob");
 		String unm = request.getParameter("unm");
 		String pw = request.getParameter("pw");
 		customerDTO dto = new customerDTO();
-		dto.setCname(name);
+		dto.setCname(cname);
 		dto.setCadd(cadd);
 		dto.setEmail(email);
 		dto.setMob(Long.parseLong(mob));

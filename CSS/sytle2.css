@@ -1,0 +1,17 @@
+div{
+    height: 50px;
+    width: 100px;
+    background-color:aquamarine;
+    border-width: 3px;
+    border-style: dotted;
+    border-color: red;
+    text-align: center;
+}
+h1{
+    text-align: center;
+    width: 200px;
+    height: 50px;
+    background-color: coral;
+    border-width: 2px;
+    border-style: double;
+}
