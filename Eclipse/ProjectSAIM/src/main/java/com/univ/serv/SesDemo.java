@@ -11,10 +11,6 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
 //how to create session and data extraction form session
-
-/**
- * Servlet implementation class SesDemo
- */
 @WebServlet("/SesDemo")
 public class SesDemo extends HttpServlet {
 	private static final long serialVersionUID = 1L;
@@ -26,10 +22,6 @@ public class SesDemo extends HttpServlet {
         super();
         // TODO Auto-generated constructor stub
     }
-
-	/**
-	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
-	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		HttpSession hs = request.getSession(true); //creating new session it will return the object of http session
 		PrintWriter pw = response.getWriter();
@@ -47,9 +39,6 @@ public class SesDemo extends HttpServlet {
 		}
 	}
 
-	/**
-	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
-	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
 		doGet(request, response);

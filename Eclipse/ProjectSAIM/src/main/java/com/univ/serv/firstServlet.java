@@ -52,19 +52,7 @@ public class firstServlet extends HttpServlet {
 		else{
 			response.sendRedirect("first.html");
 		}
-		
-		
-//		System.out.println(name);
-//		System.out.println(cadd);
-//		System.out.println(email);
-//		System.out.println(mob);
-//		System.out.println(unm);
-//		System.out.println(pw);
-		
-		
-		
-//		PrintWriter pw = response.getWriter(); //working on character
-//		pw.println("Welcom"+name);
+
 	}
 
 	/**
