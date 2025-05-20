@@ -1,5 +1,5 @@
 <head>
-	<a href = "index.jsp">Home</a> 
+	<a href = "index.jsp">home</a>
 	&nbsp;&nbsp;&nbsp;&nbsp;
 	<a href = "about.jsp">about</a>
 	&nbsp;&nbsp;&nbsp;&nbsp;
