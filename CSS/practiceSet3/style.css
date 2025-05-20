@@ -7,3 +7,43 @@
     padding: 13px;
 
 }
+#outer{
+    height: 500px;
+    width: 150px;
+    background-color: aqua;
+    border : 1px double black;
+}
+
+#red{
+    height: 120px;
+    background-color: rgb(222, 23, 23);
+    border-radius: 50%;
+    text-align: center;
+    padding : 10px 0px 5px 0px;
+    margin: 0px 5px 10px 5px;
+    border : 1px double black;
+
+
+
+}
+#yellow{
+    height: 120px;
+    background-color: rgb(237, 237, 28);
+    border-radius: 50%;
+    padding : 5px 0px 5px 0px;
+    margin: 10px 5px 10px 5px;
+    border : 1px double black;
+
+
+
+}
+#green{
+    height: 120px;
+    background-color: rgb(26, 210, 26);
+    border-radius: 50%;
+    padding : 5px 0px 5px 0px;
+    margin: 10px 5px 10px 5px;
+    border : 1px double black;
+
+
+}
