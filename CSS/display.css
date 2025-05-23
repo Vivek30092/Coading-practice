@@ -1,0 +1,27 @@
+#first{
+    background-color: aqua;
+    display: inline;
+}
+button{
+    display: block;
+    background-color: orange;
+}
+
+div{
+    width: 100px;
+    height: 100px;
+    margin : 25px;
+    padding : 25px;
+    display: inline-block; 
+}
+#box2{
+    display: none;
+}
+
+#box1{
+    visibility: hidden;
+}
+
+#box4{
+    background-color: rgba(235, 201, 5,0.40);
+}

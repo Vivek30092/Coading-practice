@@ -7,7 +7,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import com.univ.DAO.customerDAO;
+import com.univ.DAO.CustomerDAO;
 import com.univ.DTO.CustomerDTO;
 
 
@@ -31,7 +31,7 @@ public class customerReg extends HttpServlet {
 		dto.setUnm(request.getParameter("unm"));
 		dto.setPw(request.getParameter("pw"));
 		
-		customerDAO dao = new customerDAO();
+		CustomerDAO dao = new CustomerDAO();
 		int x = dao.insert(dto);
 		if(x==1) {
 			response.sendRedirect("login.jsp");

@@ -29,6 +29,7 @@ https://templatemo.com/tm-571-hexashop
     </head>
     
     <body>
+    <% HttpSession sn = request.getSession(false); %>
     
     <!-- ***** Preloader Start ***** -->
     <div id="preloader">
@@ -78,8 +79,12 @@ https://templatemo.com/tm-571-hexashop
                             </li>
                             
                             <li class="scroll-to-section"><a href="#explore">Explore</a></li>
+                            <% if (sn==null) {%>
                             <li><a href="signup.jsp">Sigh Up</a>
                             <li><a href="login.jsp">Login</a>
+                            <%} else{ %>
+                            <li><a href="login.jsp">Logout</a>
+                            <%} %>
                         </ul>        
                         <a class='menu-trigger'>
                             <span>Menu</span>

@@ -9,7 +9,7 @@ import java.util.List;
 import com.univ.DB.DBConnection;
 import com.univ.DTO.CustomerDTO;
 
-public class customerDAO{
+public class CustomerDAO{
 	public int insert(CustomerDTO dto){
 		int x = 0;
 		try {
