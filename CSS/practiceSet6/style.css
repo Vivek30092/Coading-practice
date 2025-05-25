@@ -1,0 +1,31 @@
+#navbar{
+    background-color:darkgray;
+    display: flex;
+    justify-content: space-between;
+
+}
+a{
+    text-decoration: none;
+    color : white;
+    
+}
+li{
+    list-style-type: none;
+    display: inline;
+    justify-content: space-between;
+
+}
+
+#outside{
+    height: 250px;
+    width: 250px;
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#inside{
+    height: 100px;
+    width: 100px;
+    background-color: rgba(2, 137, 160,0.8);
+}

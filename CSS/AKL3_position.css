@@ -1,0 +1,47 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: rgba(220, 20, 60,0.6);
+    border: 2px solid black;
+    display: inline-block;
+}
+p{
+    color:azure;
+    font-size: 20px;
+
+}
+#box1{
+    position: static;
+}
+#box2{
+    position: relative;
+    top:500px;
+    left:-110px;
+}
+#box3{
+    position: absolute;
+    top:500px;
+    left:10px;
+}
+#box4{
+    position: fixed;
+    right: 100px;
+    bottom:0px;
+    background-image: url("image.png");
+    background-size: contain;      
+
+}
+#box5{
+    position: fixed;
+    top:0px;
+
+}
+#box6{
+    position : sticky;
+    top:0px;
+
+}
+body{
+    background-image: url("image.png");
+    background-size: cover;
+}

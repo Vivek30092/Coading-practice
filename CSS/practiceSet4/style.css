@@ -5,6 +5,8 @@
 .contentBox{
     height: 100px;
     width: 100px;
+    border : 2px solid black;
+    display: inline-block;
 }
 #navBar{
     
@@ -28,4 +30,12 @@ a{
 }
 input{
     color:black;
+}
+footer{
+    background-color: #0f1111;
+    color: white;
+    text-align: center ;
+}
+#content{
+    height: 635px;
 }
