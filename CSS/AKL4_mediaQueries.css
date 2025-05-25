@@ -1,0 +1,27 @@
+div{
+    height: 300px;
+    width: 300px;
+    background-color: indigo;
+}
+@media(width:600px){
+    div{
+        background-color: goldenrod;
+    }
+}
+
+@media(min-width:600px){
+    div{
+        background-color: green;
+    }
+}
+@media(max-width:400px){
+    div{
+        background-color:darkred;
+    }
+}
+
+@media(min-width: 500px) and (max-width:600px){
+    div{
+        background-color: dodgerblue;
+    }
+}

@@ -1,0 +1,30 @@
+@keyframes throbber{
+    from{
+        transform : rotate(0deg);
+    }
+    to{
+        transform : rotate(360deg);
+
+    }
+}
+body{
+    height: 750px;
+    width: 1500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.loader{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: white;
+
+    
+    border-top: 4px dotted black;
+    border-right: 5px dotted black;
+    border-bottom: 8px dotted black;
+    border-left: 11px dotted rgb(177, 163, 148);
+    animation: throbber 2s ease-in-out 1s infinite normal;
+}
+
