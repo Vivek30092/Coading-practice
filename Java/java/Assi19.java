@@ -4,7 +4,7 @@ public class Assi19 {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         Name n = new Name();
-        n.info();
+        n.info();     //to print name and Enrolment number
         int num;
         System.out.print("Enter number to print table : ");
         num = sc.nextInt();
