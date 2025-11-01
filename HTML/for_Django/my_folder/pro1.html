@@ -1,0 +1,24 @@
+<html>
+    <body onload="msg()">
+        <input type="text" id="t1"/><br><br>
+        <input type="text" id="t2" /> <br><br>
+        <input type="text" id="t3" /> <br><br>
+
+        <button onclick="add()">ADD</button>
+        <script>
+            function msg()
+            {
+                alert("this is my first code");
+            }
+            function add()
+            {
+                var x=parseInt(document.getElementById("t1").value);
+                var y=parseInt(document.getElementById("t2").value);
+                document.getElementById("t3").value=(x+y)
+                document.getElementById("t1").value="";
+                document.getElementById("t2").value="";
+            }
+        </script>
+        
+    </body>
+</html>

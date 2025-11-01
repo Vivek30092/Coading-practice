@@ -45,13 +45,20 @@
     display: block;
     padding: 8px 22px;
 }
+.form{
+    background-color: antiquewhite;
+    position: relative;
+    border : 3px solid wheat;
+    width: 300px;
+    float: left;
+}
 .banner{
     width: 80%;
     height: 70%;
     top:25%;
     left: 70px;
     position: absolute;
-    color: #fff;
+    color: #8de15c ;
 }
 .app-text{
     width: 50%;
@@ -62,4 +69,20 @@
     width: 640px;
     position: relative;
     margin-left: 30px;
+}
+.app-text p{
+    width: 500px;
+    font-size: 15px;
+    margin: 20px 0 20px 30px;
+    line-height: 25px;
+    color: #d22222;
+
+}
+.app-picture{
+    width: 40%;
+    float: right;
+    margin-right: -70px;
+}
+.app-picture img{
+    width: 90%;
 }
