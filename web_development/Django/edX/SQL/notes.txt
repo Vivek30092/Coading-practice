@@ -1,0 +1,25 @@
+code fileName.sql
+sqlite3 fileName.sql
+create table command
+.tables
+insert command
+.mode columns
+.headers yes
+
+
+
+
+Django Project
+* startproject
+* startapp
+* add app in setting
+* set urls
+* create model
+* makemigrations
+* migrate
+* python manage.py shell
+* from flights.models import flights
+* f = Flights(origin = "New York", destination="London" 
+      ⋮ ,duration = 415)
+* f.save()
+* flights.objects.all()
