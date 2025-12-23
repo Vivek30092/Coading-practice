@@ -5,19 +5,19 @@ comment */
 
 // Arithmetic operators
 let a = 2;
-let b = 1;
+let b = 5;
 
 console.log("a + b:",a+b);
 console.log("a - b:",a-b);
 console.log("a * b:",a*b);
 console.log("a / b:",a/b);
 console.log("a % b:",a%b);      //modulo ope.
-console.log("b ** a",a**b);     //exp ope.
+console.log("a ** b:",a**b);     //exp ope.
 
 // unary operator
-console.log(a++);   //postIncrement
-console.log(++a);  //preIncrement
-console.log(a);
+console.log(a++);   //postIncrement  (2)
+console.log(++a);  //preIncrement   (4)
+console.log(a);    //               (4)
 
 
 // Assignment Operator
@@ -28,8 +28,8 @@ console.log("a / 5:",a/=5);
 
 
 // comparison operators
-console.log(5==5);
-console.log(5!=5);
+console.log(5==5);   //true
+console.log(5!=5);      //false
 console.log(5!="5"); //first string implicitly converted to number then compare 
 console.log(5==="5"); //strict version to compare
 console.log(5!=="5"); //strict version to compare
@@ -50,11 +50,6 @@ console.log((5<4) || (10<9))  //false
 // ! logical not inverse the answer
 console.log(!(5<4))  //true
 
-
-// if, else-if, else operator
-
-
-// Ternary Operators
-age > 18 ? "adult" : "not adult";
-
-
+// ternary operator
+let age = 14 ;
+console.log(age > 18 ? "can drink" : "can drink but be cautious " ); 

@@ -7,9 +7,9 @@ if ((marks <= 100) && (marks >= 0)){
         console.log("A");
     }else if((marks<=89) && (marks >= 70)){
         console.log("B");
-    }else if((marks<=60) && (marks >= 69)){
+    }else if((marks<=69) && (marks >= 60)){
         console.log("C");
-    }else if((marks<=50) && (marks >= 59)){
+    }else if((marks<=59) && (marks >= 50)){
         console.log("D");
     }else{
         console.log("F");

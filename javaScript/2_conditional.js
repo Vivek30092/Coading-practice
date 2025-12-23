@@ -1,5 +1,5 @@
 // if-else statement
-let age= 20;
+let age= 2;
 if (age > 18){
     console.log("you can vote")
 }else{
