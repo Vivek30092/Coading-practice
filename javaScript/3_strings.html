@@ -6,6 +6,46 @@
     <title>Strings in JS</title>
 </head>
 <body>
-    <script src="3_strings.html"></script>
+    <h1>Strings in JS</h1>
+    <p>String is a sequence of characters used to represent text</p>
+    <p>Strings are immutable in JS</p>
+    <ul>
+        <li>create String
+            <code>
+                let str = "vivek kumar"
+            </code>
+        </li>
+        <li>String length
+            <code>
+                str.length 
+            </code>
+        </li>
+        <li>String Indices
+            <code>
+                str[0],str[1],str[2]
+            </code>
+        </li>
+        <h2>String Methods in JS</h2>
+        <p>these are built-in functions to manipulate a string </p>
+        <li>str.toUpperCase()</li>
+        <li>str.toLowerCase()</li>
+        <li>str.trim()  //removes whitespaces</li>
+        <li>str.slice(start,end?)       //returns part of String</li>
+        <li>str.concat(str2)        //joins str2 with str1</li>
+        <li>str.replace(searchVal,newVal)</li>
+        <li>str.charAt(idx)</li>
+    </ul>
+
+    <hr>
+    <h1>Template Literals in JS</h1>
+    <p>A way to have embedded expressions in Strings</p>
+    <p>we can write variables with string using template literals</p>
+    <h3>String Interpolation</h3>
+    <p>to create string by doing substitution of placeholder</p>
+    <code>
+        `string text ${expression/variable} string text`
+    </code>
+
+    <script src="3_strings.js"></script>
 </body>
 </html>
