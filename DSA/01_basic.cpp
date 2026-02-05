@@ -22,9 +22,16 @@ int main(){
 
     // input in cpp
     int myage;
+    cout<<"enter your age :";
     cin>>myage;
-    cout<<"your age is : "<<myage;
+    cout<<"your age is : "<<myage<<"\n";
+
+    // type casting
+    cout<< "learning type casting\n";
+    int ans = (5/(double)2);
+    cout<<ans<<endl;
     return 0;
+
 
 
 }
