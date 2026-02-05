@@ -2,13 +2,13 @@
 #include<iostream>
 using namespace std;
 int main(){
-    int num;
+    int num,factorialN = 1;
     cout<<"enter number to find factorial : ";
     cin>> num;
-    for(int i = 1;i<=(num/2);i++){
-        if(num%i == 0){
-            cout<< i <<" ";
-        }
+    for(int i = 1;i<=num;i++){
+        cout<<i<<" X ";
+        factorialN*=i;
     }
+    cout<<" = "<<factorialN; 
     return 0;
 }
