@@ -15,7 +15,7 @@ int main(){
         cout<<"invalid input";
     }
 
-    // second way
+    // second way using implisit type conversion
     if(ch>=97 && ch<=(97+26)){
         cout<<"lowercase";
     }else if (ch>=65 && ch<=(65+26))
