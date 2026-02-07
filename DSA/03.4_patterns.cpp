@@ -9,14 +9,14 @@
 using namespace std;
 int main(){
     int num = 4;
-    // logic by me
+    // logic by me for digits
     for(int i = 0; i<num; i++){
         for(int j = (i+1); j>0; j--){
             cout<<j<<" ";
         }
         cout<<endl;
     }
-
+    
     // logic by instructor
     // as it is :)
     return 0;
