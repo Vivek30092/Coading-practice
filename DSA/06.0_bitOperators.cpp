@@ -18,11 +18,14 @@ int main(){
 
     // bitwise leftShift[<<]
     /*n<<i  n shifts i places left*/
+    // it's answer is [a<<b = a*(2^b)]
+
     cout<<(4<<1)<<endl;
 
     // bitwise rightShift[>>]  
+    // it's answer is [a<<b = a/(2^b)]
     cout<<(10>>1)<<endl;
-    
+
 
     return 0;
 }
