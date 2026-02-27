@@ -1,0 +1,2 @@
+to run 'JS' file, type : "node file_name" in terminal
+or can be seen on browser too
