@@ -9,6 +9,14 @@ function mul(a,b){
 }
 
 // arrowFunction
-const arrowSum = (a,b)=>{
+const arrowSum = (a,b)=>{   //here arrowSum is function variable in which value of function is saved 
     console.log(a+b);
 }
+
+const arrowMul = (a,b)=>{
+    return a*b;
+}
+
+
+const printHello = () =>console.log("hello world");
+     
