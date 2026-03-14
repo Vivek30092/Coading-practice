@@ -25,7 +25,7 @@ bitwise operator                fourth
 2. short()
 3. long long
 4. singed
-5. unsigned
+5. unsigned : always remains positive 
 */
 
 #include<iostream>
@@ -35,5 +35,10 @@ int main(){
     cout<<sizeof(long int)<<endl;
     cout<<sizeof(short int)<<endl;
     cout<<sizeof(long long int)<<endl;
+    cout<<sizeof(unsigned int)<<endl;
+    cout<<sizeof(signed int)<<endl;
+
+
+
     return 0;
 }
