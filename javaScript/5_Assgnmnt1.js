@@ -8,4 +8,14 @@ function countVowels(str){
     console.log(count);
 }
 
-countVowels("Divya")
+const countVow = (str) =>{
+    let count = 0;
+    for(const char of str){
+        if(char ==="a" || char === "e" || char === "i" || char ==="o" || char === "u"){
+        count++;
+        }
+    }
+    console.log(count); 
+}
+countVowels("kumar")
+countVow("Vivek")

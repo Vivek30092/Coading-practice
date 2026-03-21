@@ -34,7 +34,7 @@ console.log(`avg marks of the class is :`,sum/class_marks.length);
 
 // practice question 02 : for a given array with prices, all items have an offer of 10% OFF on them. Change the array to store final price after applying offer.
 // for-of only gives value not index
-let ini_price = [250,645,300,900,50];
+let ini_price = [250,645,300,900,50];``
 
 // using for-of loop
 // let idx=0;
