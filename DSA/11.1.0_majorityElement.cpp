@@ -1,5 +1,6 @@
 // return majority element of array[element appears more than n/2 times]
 // using bruteForce approach
+// time complexity of sorted array : O(n^2)
 #include<iostream>
 #include<vector>
 using namespace std;
