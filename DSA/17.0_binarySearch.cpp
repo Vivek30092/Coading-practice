@@ -17,7 +17,7 @@ using namespace std;
 int binarySearch(vector<int> arr,int tar){
     int st = 0 ,end = arr.size()-1;
     while(st<=end){
-        int mid = (st+end)/2;
+        int mid = (st+end)/2;       //condition of overflow may arrise
 
         if(tar>arr[mid]){
             st = mid+1;
