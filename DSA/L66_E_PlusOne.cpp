@@ -1,4 +1,7 @@
+// Prob no.: 
 // easy question based on array
+
+
 #include<iostream>
 #include<vector>
 #include<cmath>
@@ -23,7 +26,7 @@ int main(){
         while(afterAddOne>0){
         int currDigit = afterAddOne%10;
         afterAddOne /= 10;
-        ans.insert(currDigit,j);
+        // ans.insert(currDigit,j);
         }
 
     }
