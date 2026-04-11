@@ -5,10 +5,10 @@
 using namespace std;
 
 int peakIndexInMountainArray(vector<int> &nums){
-    int st = 0,end = nums.size()-1;
+    int st = 1,end = nums.size()-2;     //not including first and last elements of array, removing unnecessary checks
     while(st<=end){
-        int mid = st + (st+end)/2;
-        if(nums[mid-1] < nums[mid] && nums[mid] > nums[mid+1]){
+        int mid = st + (end-st)/2;
+        if(nums[mid-1] < nums[mid] && nums[mid] > nums[mid+1]){             //st and end will not affect it now
             return mid;
         }
         if(nums[mid-1] < nums[mid]){    //right search
