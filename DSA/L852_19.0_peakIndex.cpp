@@ -22,5 +22,5 @@ int peakIndexInMountainArray(vector<int> &nums){
 int main(){
     vector<int> nums = {0,10,5,2};
     cout<<peakIndexInMountainArray(nums);
-    return 0;
+    return 0;   
 }
